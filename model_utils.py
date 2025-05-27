@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 from modelscope import snapshot_download
 
-def download_and_save_model(model_name="qwen/Qwen-7B", save_dir="./models"):
+def download_and_save_model(model_name="LLM-Research/Llama3-8B-Chinese-Chat", save_dir="./models"):
     """
     使用 ModelScope 下载模型和分词器并保存到本地
     
